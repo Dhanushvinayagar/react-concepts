@@ -11,6 +11,14 @@ const Data  = ({ injectedProps }:any) => {
 };
 
 // const WrappedData = Wrapper({ Component: Data });
-const WrappedData = Wrapper(Data);
+
+function WrappedData(){
+
+  const Wrap = Wrapper(Data);
+  return (
+    <Wrap loading={false} />
+  )
+}
+
 
 export default WrappedData;

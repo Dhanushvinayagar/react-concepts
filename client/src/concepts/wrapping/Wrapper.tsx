@@ -9,6 +9,9 @@ const Wrapper = ( Component : any) => {
   };
   
   return (args: any) => {
+
+    if(args?.loading) return <h2>Loading...</h2>
+
     return <Component {...args} injectedProps={injectedProps} />;
   };
 };
