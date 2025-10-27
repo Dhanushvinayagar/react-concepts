@@ -1,6 +1,7 @@
 import './App.css'
 import Compose from './concepts/composition/Compose'
 import ControlledVsUncontrolled from './concepts/controlledVSuncontrolled/ControlledVsUncontrolled'
+import DebounceVsThrottle from './concepts/debounceVsthrottle/DebounceVsThrottle'
 import Key from './concepts/key/Key'
 import PureVsImpure from './concepts/pureVsImpure/PureVsImpure'
 import SuspenseConcept from './concepts/suspense/SuspenseConcept'
@@ -48,8 +49,9 @@ function App() {
       {/* <Key /> */}
       {/* <ControlledVsUncontrolled /> */}
       {/* <PureVsImpure /> */}
+      <DebounceVsThrottle />
 
-      <Login />
+      {/* <Login /> */}
 
     </>
   )
