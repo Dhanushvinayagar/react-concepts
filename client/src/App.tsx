@@ -7,6 +7,7 @@ import PureVsImpure from './concepts/pureVsImpure/PureVsImpure'
 import SuspenseConcept from './concepts/suspense/SuspenseConcept'
 import WrappedData from './concepts/wrapping/Data'
 import Login from './conceptual/otp/Login'
+import Customhooks from './hooks/customhooks/Customhooks'
 import Performancehooks from './hooks/performancehooks/Performancehooks'
 import StateVsRef from './hooks/StateVsRef'
 import Usecallback from './hooks/usecallback/Usecallback'
@@ -19,6 +20,10 @@ import UseReducer from './hooks/usereducer/UseReducer'
 import UseRefHook from './hooks/UseRefHook'
 import UseStateHook from './hooks/UseStateHook'
 import Usetransition from './hooks/Usetransition'
+
+
+import Counterhook from './hooks/customhooks/Counterhook'
+
 
 function App() {
 
@@ -39,6 +44,8 @@ function App() {
 
       {/* <Useid /> */}
 
+      <Customhooks />
+
       {/* <Usetransition /> */}
       {/* <UsedeferredValue /> */}
 
@@ -49,7 +56,7 @@ function App() {
       {/* <Key /> */}
       {/* <ControlledVsUncontrolled /> */}
       {/* <PureVsImpure /> */}
-      <DebounceVsThrottle />
+      {/* <DebounceVsThrottle /> */}
 
       {/* <Login /> */}
 
