@@ -23,6 +23,7 @@ import Usetransition from './hooks/Usetransition'
 
 
 import Counterhook from './hooks/customhooks/Counterhook'
+import DebounceandThrottle from './concepts/debounceVsthrottle/debounceandThrottle'
 
 
 function App() {
@@ -44,7 +45,7 @@ function App() {
 
       {/* <Useid /> */}
 
-      <Customhooks />
+      {/* <Customhooks /> */}
 
       {/* <Usetransition /> */}
       {/* <UsedeferredValue /> */}
@@ -57,6 +58,7 @@ function App() {
       {/* <ControlledVsUncontrolled /> */}
       {/* <PureVsImpure /> */}
       {/* <DebounceVsThrottle /> */}
+      {/* <DebounceandThrottle /> */}
 
       {/* <Login /> */}
 
