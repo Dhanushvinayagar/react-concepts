@@ -6,7 +6,31 @@ const UseStateHook = () => {
 
     return (
         <>
-            <button onClick={() => setCount(count + 1)}>Count: {count}</button>
+            {count}
+            <button onClick={() => setCount(count + 1)}>Count</button>
+
+            <button onClick={() =>{ 
+                setCount(2)
+                setCount(3)
+            }}>Count</button>
+
+            <button onClick={() =>{ 
+                setCount(count+3)
+                setCount(count+2)
+            }}>Count</button>
+
+            <button onClick={() =>{ 
+                setCount(count=>count + 1)
+                setCount(count=>count + 1)
+                setCount(count=>count + 1)
+            }}>Count</button>
+            
+            <button onClick={() =>{ 
+                setCount(count=>count + 1)
+                setCount(count=>count + 1)
+                setCount(count + 1)
+                setCount(count=>count + 1)
+            }}>Count</button>
         </>
     )
 }
