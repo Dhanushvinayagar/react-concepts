@@ -13,7 +13,7 @@ import StateVsRef from './hooks/StateVsRef'
 import Usecallback from './hooks/usecallback/Usecallback'
 import Usecontext from './hooks/usecontext/Usecontext'
 import UsedeferredValue from './hooks/UsedeferredValue'
-import UseEffect from './hooks/UseEffect'
+import UseEffect from './hooks/useeffect/UseEffect'
 import Useid from './hooks/Useid'
 import UseMemo from './hooks/UseMemo'
 import UseReducer from './hooks/usereducer/UseReducer'
@@ -24,6 +24,7 @@ import Usetransition from './hooks/Usetransition'
 
 import Counterhook from './hooks/customhooks/Counterhook'
 import DebounceandThrottle from './concepts/debounceVsthrottle/debounceandThrottle'
+import UseEffectDependency from './hooks/useeffect/UseEffectDependency'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       {/* <StateVsRef /> */}
 
       {/* <UseEffect /> */}
+      {/* <UseEffectDependency /> */}
 
       {/* <Usecontext /> */}
       {/* <UseReducer /> */}
